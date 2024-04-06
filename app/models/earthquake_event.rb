@@ -1,0 +1,2 @@
+class EarthquakeEvent < ApplicationRecord
+end
