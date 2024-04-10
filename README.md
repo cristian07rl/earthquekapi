@@ -15,12 +15,12 @@ Ruby version: 7.1
 * VITE_urlapi = "http://localhost:3000/api/features/"
 
 ### Ejecutar *bundle* para instalar los paquetes necesarios
-```
+```ruby
 bundle
 ```
 ### Crear la database
 En este proyecto se usa postgres como base de datos. para crearla use los comandos *rails db:create* *rails db:migrate*
-```
+```ruby
 rails db:create
 rails db:migrate
 ```
