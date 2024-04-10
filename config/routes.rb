@@ -1,6 +1,12 @@
 Rails.application.routes.draw do
   namespace :api do
-    resources :earthquake_events
+    resources :features
+  end
+
+  namespace :api do
+    resources :features do
+      resources :comments
+    end
   end
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
