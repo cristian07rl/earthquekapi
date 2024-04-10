@@ -32,7 +32,7 @@ rails db:seed
 ### Actualizar la database
 siempre se puede ejecutar la task data:update para obtener la informacion de los ultimos 7 dias 
 ```ruby
-rails data_update
+rails data:update
 ```
 # iniciar la aplicaion
 
